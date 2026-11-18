@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Beleza Graces — salão de beleza, cuidado e autoestima. Agende pelo WhatsApp.">
+<meta name="theme-color" content="#fbf5f5">
+<title>Beleza Graces</title>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="header"><div class="container nav-wrap">
+<a class="brand" href="#inicio"><img src="assets/logo.svg" alt="Logo Beleza Graces"><span>
+    <b>Beleza <em>Graces</em></b><small>BELEZA • CUIDADO • AUTOESTIMA</small></span></a>
+<button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i><i></i></button>
+<nav class="nav"><a href="#sobre">O salão</a><a href="#servicos">Serviços</a>
+    <a href="#equipe">Equipe</a><a href="#galeria">Galeria</a><a class="nav-cta" href="#agendamento">Agende seu horário ↗</a></nav>
+</div></header>
+
+<main id="inicio">
+<section class="hero"><div class="container hero-grid">
+<div class="hero-copy reveal"><span class="eyebrow"></span><h1>Realce sua beleza.<br><em>Celebre quem você é.</em>
+</h1><p>Um espaço pensado para cuidar de você, valorizar sua essência e transformar pequenos momentos em experiências especiais.</p>
+<div class="actions"><a class="btn" href="#agendamento">Agende seu horário ↗</a><a class="text-link" href="#servicos">Conheça nossos serviços ↓</a></div>
+<div class="trust">★★★★★ <span>Carinho em cada detalhe, cuidado em cada atendimento.</span></div></div>
+<div class="hero-visual reveal"><img class="hero-main" src="assets/fototeste" alt="Ambiente elegante de salão de beleza"></div></div>
+</div></section>
+
+<section class="about section" id="sobre"><div class="container two-col"><div class="about-img reveal"><img src="assets/interiordosalao" 
+    alt="Interior acolhedor de salão"><span>Seu bem-estar em primeiro lugar.</span></div><div class="reveal">
+        <label class="eyebrow">UM POUCO SOBRE NÓS</label><h2>Mais do que beleza,<br><em>uma experiência de cuidado.</em></h2>
+        <p>O Beleza Graces nasceu com a proposta de oferecer um espaço acolhedor, onde cada pessoa possa se sentir bem-vinda, confiante e especial.</p>
+        <p>Acreditamos que cuidar da beleza também é cuidar de si. Por isso, unimos atenção aos detalhes, 
+            profissionais dedicados e serviços pensados para valorizar sua individualidade.</p><div class="values">
+                <span><b>01</b> Atendimento acolhedor</span><span><b>02</b> Cuidado em cada detalhe</span><span><b>03</b> Beleza com personalidade</span></div></div></div></section>
+
+<section class="section services" id="servicos"><div class="container"><div class="heading center">
+    <label class="eyebrow">O QUE PODEMOS FAZER POR VOCÊ</label><h2>Nossos <em>serviços.</em></h2>
+    <p>Encontre o cuidado ideal para o seu momento.</p></div><div class="filters" role="group" aria-label="Filtrar serviços">
+        <button class="active" data-filter="todos">Todos</button><button data-filter="cabelo">Cabelo</button>
+        <button data-filter="unhas">Unhas</button><button data-filter="sobrancelhas">Sobrancelhas</button><button data-filter="cilios">Cílios</button>
+        <button data-filter="estetica">Estética facial</button></div><div class="service-grid" id="service-grid">
+        </div>
+    </div>
+</section>
+
+<section class="section team" id="equipe"><div class="container"><div class="heading"><label class="eyebrow">QUEM CUIDA DE VOCÊ</label>
+    <h2>Talento, carinho <em>e dedicação.</em></h2><p>Uma equipe preparada para tornar sua experiência ainda mais especial.</p></div><div class="team-grid">
+<article><img src="assets/funcionaria1" alt="Profissional Marina">
+    <small>CABELO & COLORAÇÃO</small><h3>Bruna Costa</h3><p>Especialista em cortes, coloração e tratamentos capilares. 
+        Apaixonada por revelar a beleza natural de cada cliente.</p></article>
+
+<article><img src="assets/funcionaria2" alt="Profissional Camila">
+    <small>UNHAS & NAIL DESIGN</small><h3>Camila Oliveira</h3><p>Cuida de cada detalhe das mãos e dos pés, com criatividade, 
+        delicadeza e atenção à saúde das unhas.</p></article>
+
+<article><img src="assets/funcionaria3" alt="Profissional Júlia">
+    <small>OLHAR & ESTÉTICA</small><h3>Júlia Martins</h3><p>Especialista em sobrancelhas, cílios e cuidados faciais, respeitando a beleza de cada pessoa.</p></article>
+</div>
+</div>
+</section>
+
+<section class="section gallery" id="galeria"><div class="container"><div class="heading center"><label class="eyebrow">UM POUCO DO NOSSO TRABALHO</label><h2>Beleza em <em>cada detalhe.</em></h2><p>Inspire-se com alguns resultados e possibilidades.</p></div><div class="filters gallery-filters"><button class="active" data-gallery="todos">Todos</button><button data-gallery="cabelos">Cabelos</button><button data-gallery="unhas">Unhas</button><button data-gallery="beleza">Beleza</button></div><div class="gallery-grid">
+<button data-cat="cabelos" data-full="assets/cabelo1">
+    <img src="assets/cabelo1" alt="Cabelo finalizado"><span>Cabelos ↗</span></button>
+<button data-cat="unhas" data-full="assets/unha1">
+    <img src="assets/unha1" alt="Unhas"><span>Unhas ↗</span></button>
+<button data-cat="beleza" data-full="assets/sobrancelha1">
+    <img src="assets/sobrancelha1" alt="Beleza"><span>Beleza ↗</span></button>
+<button data-cat="cabelos" data-full="assets/cabelo3">
+    <img src="assets/cabelo3" alt="Cabelo"><span>Cabelos ↗</span></button>
+<button data-cat="beleza" data-full="assets/limpeza">
+    <img src="assets/limpeza" alt="Detalhes de beleza"><span>Beleza ↗</span></button>
+</div>
+</div>
+</section>
+
+<section class="section reviews"><div class="container"><div class="heading center"><label class="eyebrow">QUEM VIVE, RECOMENDA</label>
+    <h2>Palavras que <em>nos inspiram.</em></h2></div><div class="review-grid">
+<article><b>★★★★★</b><p>“Adorei o atendimento! Me senti acolhida desde a chegada e amei o resultado do meu cabelo. Já quero voltar.”</p>
+    <strong>Fernanda R.</strong><small>Cliente — Cabelo</small></article>
+<article><b>★★★★★</b><p>“Um lugar lindo, atendimento cuidadoso e profissionais muito atenciosas. Foi uma experiência maravilhosa.”</p>
+    <strong>Juliana M.</strong><small>Cliente — Unhas</small></article>
+<article><b>★★★★★</b><p>“Fiz minhas sobrancelhas e fiquei muito feliz com o resultado. Entenderam exatamente o que eu queria.”</p>
+    <strong>Patrícia S.</strong><small>Cliente — Sobrancelhas</small></article>
+</div><p class="demo">Depoimentos ilustrativos.</p></div></section>
+<section class="section faq" id="duvidas"><div class="container two-col"><div class="heading"><label class="eyebrow">DÚVIDAS FREQUENTES</label>
+    <h2>Tudo bem perguntar. <em>A gente explica.</em></h2><p>Confira algumas informações antes de agendar seu momento de cuidado.</p>
+    <a class="text-link" href="#agendamento">Ainda tem dúvidas? Fale com a gente ↗</a></div><div class="faq-list">
+
+<details><summary>Como faço para agendar um horário?<b>+</b></summary><p>Preencha o formulário nesta página. As informações serão enviadas para nosso WhatsApp para confirmarmos a disponibilidade.</p></details>
+<details><summary>Quais são as formas de pagamento?<b>+</b></summary><p>Aceitamos Pix, dinheiro e cartões. Consulte as condições no momento do agendamento.</p></details>
+<details><summary>É necessário agendamento antecipado?<b>+</b></summary><p>Recomendamos agendar com antecedência para garantir o melhor horário para você.</p></details>
+<details><summary>O salão atende por ordem de chegada?<b>+</b></summary><p>Nosso atendimento é preferencialmente realizado com horário marcado. Consulte a disponibilidade para encaixes.</p></details>
+<details><summary>Como posso cancelar ou remarcar?<b>+</b></summary><p>Entre em contato pelo WhatsApp assim que possível para verificarmos uma nova data ou horário.</p></details>
+</div>
+</div>
+</section>
+
+<section class="booking section" id="agendamento"><div class="container booking-grid"><div class="booking-copy">
+    <label class="eyebrow">SEU MOMENTO COMEÇA AQUI</label><h2>Vamos reservar um tempo para você?</h2>
+    <p>Preencha as informações e envie sua solicitação pelo WhatsApp. Nossa equipe entrará em contato para confirmar o agendamento.</p>
+    <ul><li>✓ Atendimento com hora marcada</li><li>✓ Cuidado pensado para você</li><li>✓ Confirmação diretamente pelo WhatsApp</li></ul>
+</div>
+
+<form id="booking-form"><label class="eyebrow">AGENDE SEU HORÁRIO</label><h3>Conte como podemos cuidar de você.</h3>
+<label>Seu nome<input name="nome" required placeholder="Como podemos te chamar?"></label>
+<label>Seu telefone<input name="telefone" required type="tel" placeholder="(11) 99999-9999"></label>
+<label>Serviço desejado<select name="servico" required><option value="">Selecione um serviço</option>
+    <option>Corte feminino</option><option>Escova</option><option>Hidratação capilar</option><option>Coloração</option>
+    <option>Manicure</option><option>Pedicure</option><option>Alongamento de unhas</option><option>Design de sobrancelhas</option>
+    <option>Henna</option><option>Extensão de cílios</option><option>Lifting de cílios</option><option>Limpeza de pele</option>
+    <option>Outro / quero consultar</option></select></label>
+<label>Profissional de preferência <small>(opcional)</small><select name="profissional"><option>Sem preferência</option>
+    <option>Marina Costa</option><option>Camila Oliveira</option><option>Júlia Martins</option></select></label>
+<div class="form-row"><label>Data desejada<input name="data" type="date" required></label><label>Horário<input name="horario" type="time" required></label></div>
+<button class="btn submit" type="submit">Enviar solicitação pelo WhatsApp ↗</button><small class="disclaimer">O envio não confirma automaticamente a consulta. A equipe verificará a disponibilidade e retornará pelo WhatsApp.</small><p id="feedback" role="status"></p></form>
+</div>
+</section>
+
+<section class="section contact" id="contato"><div class="container two-col"><div>
+    <label class="eyebrow">VAI SER UM PRAZER RECEBER VOCÊ</label><h2>Estamos esperando <em>por você.</em>
+    </h2><p>Fale com a gente para tirar dúvidas, consultar horários ou saber mais sobre nossos serviços.</p>
+    <a class="contact-line" data-whatsapp href="#"><span>✆</span><div><small>FALE PELO WHATSAPP</small><b>(11) 91678-8446</b></div>↗</a>
+    <a class="contact-line" data-instagram href="#"><span>◎</span><div><small>ACOMPANHE NO INSTAGRAM</small><b>@digitalgraces</b></div>↗</a></div>
+<div class="location"><img src="assets/fototeste" 
+    alt="Interior de salão de beleza"><div><label class="eyebrow">VISITE-NOS</label><h3>Beleza Graces</h3>
+        <p>Rua Exemplo 123, São Paulo - SP.</p><p>SEG — SEX <b>09h às 19h</b></p><p>SÁBADO <b>09h às 17h</b></p><p>DOMINGO <b>Fechado</b></p>
+        <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=sal%C3%A3o+de+beleza">Ver localização no mapa ↗</a></div></div>
+</div>
+</section>
+<section class="final"><div class="container"><div><label class="eyebrow">UM CARINHO A MAIS PARA VOCÊ</label><h2>Você merece esse momento.</h2></div><a class="btn" href="#agendamento">Agende seu horário ↗</a></div></section>
+</main>
+<footer><div class="container footer-main"><div><a class="brand" href="#inicio"><img src="assets/logo.svg" alt=""><span><b>Beleza <em>Graces</em></b><small>BELEZA • CUIDADO • AUTOESTIMA</small></span></a><p>Um espaço de beleza, cuidado e autoestima feito para você.</p></div><div><h4>NAVEGAÇÃO</h4><a href="#sobre">O salão</a><a href="#servicos">Serviços</a><a href="#equipe">Nossa equipe</a><a href="#galeria">Galeria</a><a href="#duvidas">Dúvidas frequentes</a></div><div><h4>CONTATO</h4><a data-whatsapp href="#">WhatsApp</a><a data-instagram href="#">Instagram</a><span>Segunda a sábado</span></div></div>
+<div class="container footer-bottom"><span>© <span id="year"></span> Beleza Graces. Todos os direitos reservados.</span><span>Site criado por <a href="https://www.instagram.com/digitalgraces/" target="_blank" rel="noopener">Graces Digital</a></span></div></footer>
+<a class="whatsapp-float" data-whatsapp href="#" aria-label="Fale com o Beleza Graces pelo WhatsApp" target="_blank" rel="noopener"><!-- ÍCONE EDITÁVEL: substitua o SVG abaixo se desejar --><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 2 17.7L.5 23.5l6-1.6A11.8 11.8 0 1 0 20.5 3.5ZM12 21a9 9 0 0 1-4.6-1.3l-.3-.2-3.5.9.9-3.4-.2-.4A9 9 0 1 1 12 21Zm5-6.7c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a7.3 7.3 0 0 1-2.1-1.3 8 8 0 0 1-1.5-1.9c-.2-.3 0-.5.1-.6l.5-.6.2-.4c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.1 1.1-1.1 2.6 1.1 3 1.3 3.2 2.2 3.4 5.4 4.7c.8.3 1.4.5 1.8.6.8.2 1.5.2 2 .1.6-.1 1.8-.7 2.1-1.5s.3-1.4.2-1.5-.3-.3-.6-.4Z"/></svg></a>
+<div class="modal" id="service-modal" aria-hidden="true"><div class="backdrop" data-close></div><div class="modal-box" role="dialog" aria-modal="true"><button class="close" aria-label="Fechar">×</button><img id="modal-img" src="" alt=""><div><label id="modal-cat" class="eyebrow"></label><h2 id="modal-title"></h2><p id="modal-desc"></p><b id="modal-price"></b><a class="btn" id="modal-book" href="#agendamento">Agendar este serviço ↗</a></div></div></div>
+<div class="lightbox" id="lightbox"><button aria-label="Fechar">×</button><img src="" alt="Imagem ampliada"></div>
+<script src="js/script.js"></script>
+</body></html>
